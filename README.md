@@ -78,7 +78,7 @@ curl --request POST \
 ```
 
 ## Reschedule booking :
-# param : booking ID
+### param : booking ID
 
 ```
 curl --request PUT \
@@ -92,7 +92,7 @@ curl --request PUT \
 }'
 ```
 ## Cancel booking :
-# param : booking ID
+### param : booking ID
 
 ```
 curl --request PUT \
@@ -103,7 +103,7 @@ curl --request PUT \
 }'
 ```
 ## Get bookings of an operator :
-# param : operator ID
+### param : operator ID
 
 ```
 curl --request GET \
@@ -112,7 +112,7 @@ curl --request GET \
 ```
 
 ## Get available slots of an operator :
-# param : operator ID
+### param : operator ID
 
 ```
 curl --request GET \
